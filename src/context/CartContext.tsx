@@ -42,9 +42,9 @@ const C=createContext<Ctx|undefined>(undefined);
 export function CartProvider({children}:{children:React.ReactNode}){
   const[state,dispatch]=useReducer(reducer,{items:[],open:false});
   useEffect(()=>{
-    try{const d=localStorage.getItem('malwa-cart');if(d)dispatch({type:'LOAD',payload:JSON.parse(d)});}catch{}
+    try{const d=localStorage.getItem('Malwas-cart');if(d)dispatch({type:'LOAD',payload:JSON.parse(d)});}catch{}
   },[]);
-  useEffect(()=>{localStorage.setItem('malwa-cart',JSON.stringify(state.items));},[state.items]);
+  useEffect(()=>{localStorage.setItem('Malwas-cart',JSON.stringify(state.items));},[state.items]);
   const total=state.items.reduce((s,i)=>s+i.price*i.quantity,0);
   const count=state.items.reduce((s,i)=>s+i.quantity,0);
   return(

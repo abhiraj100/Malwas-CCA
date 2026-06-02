@@ -6,7 +6,7 @@ import toast from'react-hot-toast';
 const faqs=[
   {q:'Do you fit seat covers at the showroom?',   a:'Yes! Free professional fitting is included with all seat cover purchases. Just visit us at Ranchi Road, near Hyundai Showroom.'},
   {q:'Which car types do you work on?',           a:'All types — hatchback, sedan, SUV, MUV, and luxury vehicles. Bring your car in and we\'ll find the perfect accessories.'},
-  {q:'Do you offer alloy wheel balancing?',       a:'Yes, Malwa Alloys (our sister showroom at the same address) does fitting, balancing and alignment for all alloys.'},
+  {q:'Do you offer alloy wheel balancing?',       a:'Yes, Malwas Alloys (our sister showroom at the same address) does fitting, balancing and alignment for all alloys.'},
   {q:'What is your return / exchange policy?',    a:'7-day hassle-free return for unused products in original packaging. For fitment issues, we resolve them on-site free of charge.'},
   {q:'Can I order accessories online and pick up?',a:'Yes — place your order online and collect from our showroom. We\'ll notify you when it\'s ready.'},
 ];
@@ -38,9 +38,9 @@ export default function ContactPage(){
               Have questions? Want to book a fitment appointment? Need custom accessories advice? We&apos;re here to help.
             </p>
             {[
-              {icon:MapPin,t:'Showroom Address',lines:['Ranchi Road, Near Hyundai Showroom','Jharkhand – 835xxx','(Malwa Alloys — same complex)']},
+              {icon:MapPin,t:'Showroom Address',lines:['Ranchi Road, Near Hyundai Showroom','Jharkhand – 835xxx','(Malwas Alloys — same complex)']},
               {icon:Phone, t:'Call / WhatsApp',  lines:['+91 94xxx xxxxx','+91 90xxx xxxxx']},
-              {icon:Mail,  t:'Email',            lines:['info@malwacca.in','support@malwacca.in']},
+              {icon:Mail,  t:'Email',            lines:['info@Malwascca.in','support@Malwascca.in']},
               {icon:Clock, t:'Hours',            lines:['Mon–Sat: 9:00 AM – 8:00 PM','Sunday: 10:00 AM – 5:00 PM']},
             ].map(({icon:Icon,t,lines})=>(
               <div key={t} className="flex gap-4">

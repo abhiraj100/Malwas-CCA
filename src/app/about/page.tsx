@@ -3,7 +3,7 @@ import Link from'next/link';
 import{Target,Heart,Zap,MapPin}from'lucide-react';
 
 const team=[
-  {name:'Malwa (Founder)',   role:'Owner & Head of Operations', av:'MW', bio:'8+ years in car accessories & modification'},
+  {name:'Malwas (Founder)',   role:'Owner & Head of Operations', av:'MW', bio:'8+ years in car accessories & modification'},
   {name:'Rahul Singh',       role:'Sr. Fitment Technician',     av:'RS', bio:'Expert in seat cover & modification fitment'},
   {name:'Ankit Kumar',       role:'Alloys Specialist',          av:'AK', bio:'Alloy wheel expert — fitting & balancing'},
   {name:'Pooja Devi',        role:'Customer Relations',         av:'PD', bio:'Ensuring every customer leaves happy'},
@@ -40,12 +40,12 @@ export default function AboutPage(){
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="section-tag">Who We Are</span>
-            <h2 className="display font-black text-white text-4xl md:text-5xl uppercase tracking-wider mb-6 leading-none">MALWA CCA<br/>EST. 2016</h2>
+            <h2 className="display font-black text-white text-4xl md:text-5xl uppercase tracking-wider mb-6 leading-none">Malwas CCA<br/>EST. 2016</h2>
             <p className="text-zinc-400 leading-relaxed mb-4 text-sm">
-              Malwa Car Care & Accessories started with a single vision — give every car owner access to premium accessories at honest prices. Located on Ranchi Road, right next to the Hyundai Showroom, we have served thousands of customers across Jharkhand.
+              Malwas Car Care & Accessories started with a single vision — give every car owner access to premium accessories at honest prices. Located on Ranchi Road, right next to the Hyundai Showroom, we have served thousands of customers across Jharkhand.
             </p>
             <p className="text-zinc-400 leading-relaxed mb-4 text-sm">
-              From premium Nappa leather seat covers to full car modification, we do it all. Our sister showroom <strong className="text-white">Malwa Alloys</strong> carries the latest 4-wheeler alloy wheels in every size and finish — with on-site fitting and balancing.
+              From premium Nappa leather seat covers to full car modification, we do it all. Our sister showroom <strong className="text-white">Malwas Alloys</strong> carries the latest 4-wheeler alloy wheels in every size and finish — with on-site fitting and balancing.
             </p>
             <p className="text-zinc-400 leading-relaxed mb-6 text-sm">
               All car types are welcome — hatchback, sedan, SUV, MUV or luxury. Our experienced team ensures every fitment is perfect.

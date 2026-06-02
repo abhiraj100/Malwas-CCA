@@ -65,7 +65,7 @@ export const products: Product[] = [
     badge: 'Best Seller',
     description: 'Premium imported Nappa leather seat covers with triple stitching. Fits all popular hatchbacks and sedans. Airbag-compatible with back-seat armrest access.',
     features: ['Imported Nappa Leather','Triple Stitch','Airbag Safe','Full 7-Piece Set','5 Colour Options'],
-    inStock: true, brand: 'Malwa Premium',
+    inStock: true, brand: 'Malwas Premium',
     carTypes: ['Hatchback','Sedan','SUV'],
   },
   {
@@ -78,7 +78,7 @@ export const products: Product[] = [
     badge: 'Hot Deal',
     description: 'Breathable perforated leatherette with elegant diamond-quilted pattern.',
     features: ['Perforated PU Leather','Diamond Quilted','Breathable','Easy Install'],
-    inStock: true, brand: 'Malwa Premium',
+    inStock: true, brand: 'Malwas Premium',
     carTypes: ['Hatchback','Sedan'],
   },
   {
@@ -217,7 +217,7 @@ export const alloys: Alloy[] = [
     size: '17"', pcd: '5x114.3', finish: 'Gloss Black Machined',
     price: 8999, originalPrice: 11999,
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80',
-    badge: 'Best Seller', brand: 'Malwa Alloys',
+    badge: 'Best Seller', brand: 'Malwas Alloys',
     rating: 4.9, reviews: 134,
     description: 'Forged 10-spoke alloy with gloss black base and precision-machined highlights.',
     fitment: ['Hyundai Creta','Kia Seltos','Honda City','Toyota Innova Crysta'],
@@ -228,7 +228,7 @@ export const alloys: Alloy[] = [
     size: '16"', pcd: '4x100', finish: 'Matte Gunmetal',
     price: 6499, originalPrice: 8999,
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80',
-    badge: 'Hot Deal', brand: 'Malwa Alloys',
+    badge: 'Hot Deal', brand: 'Malwas Alloys',
     rating: 4.7, reviews: 98,
     description: 'Aggressive mesh design in matte gunmetal. Ideal for hatchbacks and compact sedans.',
     fitment: ['Maruti Swift','Hyundai i20','Tata Nexon','Mahindra XUV 3XO'],
@@ -239,7 +239,7 @@ export const alloys: Alloy[] = [
     size: '18"', pcd: '5x112', finish: 'Silver with Chrome Lip',
     price: 12999, originalPrice: 17999,
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80',
-    badge: 'Premium', brand: 'Malwa Alloys',
+    badge: 'Premium', brand: 'Malwas Alloys',
     rating: 4.8, reviews: 72,
     description: 'Luxury 10-spoke with deep chrome lip – the statement wheel for premium SUVs.',
     fitment: ['Toyota Fortuner','Hyundai Tucson','VW Tiguan','Skoda Kodiaq'],
@@ -250,7 +250,7 @@ export const alloys: Alloy[] = [
     size: '17"', pcd: '5x100', finish: 'Full Gloss Black',
     price: 7999, originalPrice: 10499,
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80',
-    brand: 'Malwa Alloys', badge: 'New Stock',
+    brand: 'Malwas Alloys', badge: 'New Stock',
     rating: 4.6, reviews: 55,
     description: 'Bold Y-spoke design in full gloss black with floating centre cap.',
     fitment: ['Toyota Glanza','Maruti Baleno','Volkswagen Polo','Skoda Rapid'],
@@ -261,7 +261,7 @@ export const alloys: Alloy[] = [
     size: '16"', pcd: '4x108', finish: 'Hyper Silver',
     price: 5999, originalPrice: 7499,
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80',
-    brand: 'Malwa Alloys',
+    brand: 'Malwas Alloys',
     rating: 4.5, reviews: 43,
     description: 'Clean 5-split spoke in hyper silver finish. Understated and elegant.',
     fitment: ['Ford Figo','Honda Amaze','Renault Triber','Nissan Magnite'],
@@ -272,7 +272,7 @@ export const alloys: Alloy[] = [
     size: '18"', pcd: '5x114.3', finish: 'Bronze Tinted',
     price: 14999, originalPrice: 19999,
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80',
-    badge: 'Exclusive', brand: 'Malwa Alloys',
+    badge: 'Exclusive', brand: 'Malwas Alloys',
     rating: 4.9, reviews: 29,
     description: 'Concave-face deep-lip design in warm bronze tint. Limited stocks.',
     fitment: ['Hyundai Creta N-Line','Kia Sonet','MG Astor','Jeep Compass'],
@@ -282,9 +282,9 @@ export const alloys: Alloy[] = [
 /* ─── Testimonials ─── */
 export const testimonials = [
   { id:1, name:'Amit Sahu',     location:'Ranchi',    rating:5, avatar:'AS', car:'Hyundai i20',    text:'Got Nappa leather covers fitted here. Quality is showroom-level. The shop near Hyundai is very easy to find.' },
-  { id:2, name:'Sandeep Kumar', location:'Hazaribagh', rating:5, avatar:'SK', car:'Maruti Swift',   text:'Bought Hawk Spoke alloys from Malwa Alloys. Looks stunning! They did balancing and fitting on-spot.' },
+  { id:2, name:'Sandeep Kumar', location:'Hazaribagh', rating:5, avatar:'SK', car:'Maruti Swift',   text:'Bought Hawk Spoke alloys from Malwas Alloys. Looks stunning! They did balancing and fitting on-spot.' },
   { id:3, name:'Priya Verma',   location:'Ranchi',    rating:5, avatar:'PV', car:'Kia Seltos',     text:'Full matte black wrap done here. The finish is flawless. Highly recommend for any car modification.' },
-  { id:4, name:'Rohit Tiwari',  location:'Ramgarh',   rating:4, avatar:'RT', car:'Toyota Fortuner', text:'Crown 18" alloys on my Fortuner. Everyone stops to ask where I got these. Great staff at Malwa Alloys.' },
+  { id:4, name:'Rohit Tiwari',  location:'Ramgarh',   rating:4, avatar:'RT', car:'Toyota Fortuner', text:'Crown 18" alloys on my Fortuner. Everyone stops to ask where I got these. Great staff at Malwas Alloys.' },
 ];
 
 /* ─── Car types they work on ─── */

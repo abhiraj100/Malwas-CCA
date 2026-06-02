@@ -16,7 +16,7 @@ const slides=[
     img:'https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1400&q=80',
   },
   {
-    tag:'Malwa Alloys Showroom',
+    tag:'Malwas Alloys Showroom',
     title:'LATEST\nALLOY\nWHEELS',
     sub:'Biggest selection of 4-wheeler alloys in the region. Fitting & balancing included.',
     cta:'Browse Alloys',href:'/alloys',
@@ -188,13 +188,13 @@ export default function Home(){
         </div>
       </section>
 
-      {/* ── MALWA ALLOYS SPOTLIGHT ── */}
+      {/* ── Malwas ALLOYS SPOTLIGHT ── */}
       <section className="py-16 bg-zinc-900 border-y border-zinc-800">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-end justify-between mb-8">
             <div>
               <span className="section-tag">Our Alloys Showroom</span>
-              <h2 className="section-title">MALWA ALLOYS</h2>
+              <h2 className="section-title">Malwas ALLOYS</h2>
               <p className="text-zinc-500 text-sm mt-2 max-w-md">Latest 4-wheeler alloys in every size, finish and PCD. Fitting & balancing at the showroom.</p>
             </div>
             <Link href="/alloys" className="hidden sm:flex btn-white text-xs gap-2">
@@ -225,7 +225,7 @@ export default function Home(){
           </div>
           <div className="relative overflow-hidden bg-white text-black p-10 group hover:bg-zinc-100 transition-all cut-corner-lg">
             <div>
-              <span className="badge-dark mb-4 inline-block bg-zinc-900 text-white">Malwa Alloys</span>
+              <span className="badge-dark mb-4 inline-block bg-zinc-900 text-white">Malwas Alloys</span>
               <h3 className="display font-black text-black text-4xl uppercase tracking-wider mb-2">New Stock In</h3>
               <p className="text-zinc-600 text-sm mb-6">18" concave, 17" spoke & 16" mesh — all brands, all PCD</p>
               <Link href="/alloys" className="btn dark:btn-dark bg-black text-white hover:bg-zinc-800 border-0 btn text-xs">Browse Alloys</Link>

@@ -10,7 +10,7 @@ export default function Footer(){
           <div>
             <span className="section-tag">Stay in the loop</span>
             <h3 className="display font-black text-white text-3xl uppercase tracking-wider leading-none">
-              Join Malwa CCA Club
+              Join Malwas CCA Club
             </h3>
             <p className="text-zinc-500 text-sm mt-1">Exclusive deals, new products & car tips.</p>
           </div>
@@ -30,7 +30,7 @@ export default function Footer(){
               <span className="display font-black text-black text-lg">M</span>
             </div>
             <div>
-              <div className="display font-black text-white text-xl tracking-wider uppercase">Malwa CCA</div>
+              <div className="display font-black text-white text-xl tracking-wider uppercase">Malwas CCA</div>
               <div className="mono text-[9px] text-zinc-500 tracking-[.28em]">Car Care & Accessories</div>
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function Footer(){
               {href:'/products',label:'Shop All'},
               {href:'/products?category=seat-covers',label:'Seat Covers'},
               {href:'/products?category=modification',label:'Car Modification'},
-              {href:'/alloys',label:'Malwa Alloys'},
+              {href:'/alloys',label:'Malwas Alloys'},
               {href:'/about',label:'About Us'},
               {href:'/contact',label:'Contact'},
               {href:'/wishlist',label:'My Wishlist'},
@@ -106,7 +106,7 @@ export default function Footer(){
             </li>
             <li className="flex gap-3 items-center">
               <Mail size={15} className="text-white shrink-0"/>
-              <a href="mailto:info@malwacca.in" className="text-zinc-400 hover:text-white text-sm transition-colors">info@malwacca.in</a>
+              <a href="mailto:info@Malwascca.in" className="text-zinc-400 hover:text-white text-sm transition-colors">info@Malwascca.in</a>
             </li>
             <li className="flex gap-3">
               <Clock size={15} className="text-white mt-0.5 shrink-0"/>
@@ -120,7 +120,7 @@ export default function Footer(){
           {/* Alloys branch */}
           <div className="mt-5 p-3 border border-zinc-800 bg-zinc-900">
             <div className="mono text-[9px] text-zinc-500 uppercase tracking-widest mb-1">Our Other Showroom</div>
-            <div className="display font-black text-white text-base uppercase">Malwa Alloys</div>
+            <div className="display font-black text-white text-base uppercase">Malwas Alloys</div>
             <div className="text-zinc-500 text-xs mt-0.5">Latest 4-Wheeler Alloys — Same Address</div>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function Footer(){
       <div className="border-t border-zinc-800">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="mono text-zinc-700 text-[10px] uppercase tracking-widest">
-            © 2024 Malwa CCA. All rights reserved.
+            © 2024 Malwas CCA. All rights reserved.
           </p>
           <div className="flex gap-3">
             {['COD','UPI','Visa','Mastercard','PhonePe'].map(p=>(

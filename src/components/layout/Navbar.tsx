@@ -17,7 +17,7 @@ const links=[
     {href:'/products?category=safety',       label:'Safety'},
     {href:'/products?category=cleaning',     label:'Car Care'},
   ]},
-  {href:'/alloys',  label:'Malwa Alloys'},
+  {href:'/alloys',  label:'Malwas Alloys'},
   {href:'/about',   label:'About'},
   {href:'/contact', label:'Contact'},
 ];
@@ -41,7 +41,7 @@ export default function Navbar(){
       {/* Ticker tape */}
       <div className="bg-white text-black text-[10px] mono tracking-[.18em] overflow-hidden py-1.5">
         <div className="ticker-inner whitespace-nowrap select-none">
-          {Array(4).fill('  ◆  FREE FITTING ON ALL SEAT COVERS  ◆  VISIT: RANCHI ROAD, NEAR HYUNDAI SHOWROOM  ◆  MALWA ALLOYS — LATEST 4-WHEELER ALLOYS  ◆  CALL: +91 94xxx xxxxx  ◆  ALL CAR TYPES SERVICED  ').join('')}
+          {Array(4).fill('  ◆  FREE FITTING ON ALL SEAT COVERS  ◆  VISIT: RANCHI ROAD, NEAR HYUNDAI SHOWROOM  ◆  Malwas ALLOYS — LATEST 4-WHEELER ALLOYS  ◆  CALL: +91 94xxx xxxxx  ◆  ALL CAR TYPES SERVICED  ').join('')}
         </div>
       </div>
 
@@ -58,7 +58,7 @@ export default function Navbar(){
                 <span className="display font-black text-black text-lg leading-none">M</span>
               </div>
               <div className="hidden sm:block">
-                <div className="display font-black text-white text-2xl tracking-wider leading-none uppercase">Malwa CCA</div>
+                <div className="display font-black text-white text-2xl tracking-wider leading-none uppercase">Malwas CCA</div>
                 <div className="mono text-[9px] text-zinc-500 tracking-[.3em] uppercase">Car Care & Accessories</div>
               </div>
             </Link>

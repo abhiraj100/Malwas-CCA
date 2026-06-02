@@ -9,7 +9,7 @@ export default function OrderSuccess(){
           <CheckCircle size={36} className="text-white"/>
         </div>
         <h1 className="display font-black text-white text-5xl uppercase tracking-wider mb-3">Order Placed!</h1>
-        <p className="text-zinc-400 text-sm mb-8">Thank you for shopping with Malwa CCA. You&apos;ll receive a confirmation soon.</p>
+        <p className="text-zinc-400 text-sm mb-8">Thank you for shopping with Malwas CCA. You&apos;ll receive a confirmation soon.</p>
         <div className="card p-5 text-left mb-8">
           <div className="flex items-center gap-2 mb-3"><Package size={14} className="text-white"/><span className="text-white text-sm font-semibold">What&apos;s Next?</span></div>
           <ol className="space-y-2 mono text-zinc-500 text-[11px]">

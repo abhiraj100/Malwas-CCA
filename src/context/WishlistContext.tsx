@@ -20,9 +20,9 @@ const C=createContext<Ctx|undefined>(undefined);
 export function WishlistProvider({children}:{children:React.ReactNode}){
   const[state,dispatch]=useReducer(reducer,{items:[]});
   useEffect(()=>{
-    try{const d=localStorage.getItem('malwa-wl');if(d)dispatch({type:'LOAD',payload:JSON.parse(d)});}catch{}
+    try{const d=localStorage.getItem('Malwas-wl');if(d)dispatch({type:'LOAD',payload:JSON.parse(d)});}catch{}
   },[]);
-  useEffect(()=>{localStorage.setItem('malwa-wl',JSON.stringify(state.items));},[state.items]);
+  useEffect(()=>{localStorage.setItem('Malwas-wl',JSON.stringify(state.items));},[state.items]);
   return(
     <C.Provider value={{
       items:state.items,

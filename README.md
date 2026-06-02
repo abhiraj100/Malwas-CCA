@@ -1,11 +1,11 @@
-# 🚗 Malwa CCA — Car Care & Accessories
+# 🚗 Malwas CCA — Car Care & Accessories
 
-A complete Next.js 14 e-commerce website for Malwa Car Care & Accessories, featuring a striking **black & white** industrial design.
+A complete Next.js 14 e-commerce website for Malwas Car Care & Accessories, featuring a striking **black & white** industrial design.
 
 ## 📍 About the Shop
 
-**Malwa CCA** — Premium car accessories, seat covers & full car modification for all car types.
-**Malwa Alloys** — Sister showroom with latest 4-wheeler alloy wheels.
+**Malwas CCA** — Premium car accessories, seat covers & full car modification for all car types.
+**Malwas Alloys** — Sister showroom with latest 4-wheeler alloy wheels.
 **Location:** Ranchi Road, Near Hyundai Showroom, Jharkhand.
 
 ## ✨ Features
@@ -13,7 +13,7 @@ A complete Next.js 14 e-commerce website for Malwa Car Care & Accessories, featu
 - 🛒 **Cart & Checkout** — Full multi-step checkout with payment options
 - ❤️ **Wishlist** — Save & manage favourite products
 - 🔍 **Smart Filters** — Category, price range, search, sort, grid/list
-- 🏎️ **Malwa Alloys Section** — Dedicated alloys showroom page with filter by size & finish
+- 🏎️ **Malwas Alloys Section** — Dedicated alloys showroom page with filter by size & finish
 - 📱 **Fully Responsive** — Mobile-first with ticker tape, mobile menu
 - 🎨 **B&W Industrial Theme** — Barlow Condensed + Barlow + Share Tech Mono fonts
 - 🖼️ **Hero Carousel** — Auto-rotating with slide indicators
@@ -22,7 +22,7 @@ A complete Next.js 14 e-commerce website for Malwa Car Care & Accessories, featu
 ## 🚀 Quick Start
 
 ```bash
-cd malwa-cca
+cd Malwas-cca
 npm install
 npm run dev
 # → http://localhost:3000
@@ -40,7 +40,7 @@ src/
 │   │   ├── page.tsx              # Products listing
 │   │   └── [id]/page.tsx         # Product detail
 │   ├── alloys/
-│   │   ├── page.tsx              # Malwa Alloys listing
+│   │   ├── page.tsx              # Malwas Alloys listing
 │   │   └── [id]/page.tsx         # Alloy detail
 │   ├── cart/page.tsx
 │   ├── checkout/page.tsx

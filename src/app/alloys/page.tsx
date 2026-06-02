@@ -32,7 +32,7 @@ export default function AlloysPage(){
             <span className="section-tag">Our Other Showroom</span>
             <h1 className="display font-black text-white uppercase leading-none"
               style={{fontSize:'clamp(3rem,8vw,6rem)'}}>
-              MALWA ALLOYS
+              Malwas ALLOYS
             </h1>
             <p className="text-zinc-400 text-sm mt-2 max-w-sm">Latest 4-wheeler alloy wheels in all sizes, finishes and PCD patterns. Fitting & balancing on-site.</p>
           </div>
@@ -117,9 +117,9 @@ export default function AlloysPage(){
 
         {/* Visit card */}
         <div className="mt-8 bg-white text-black p-8 cut-corner-lg">
-          <div className="display font-black text-3xl uppercase tracking-wider mb-2">Visit Malwa Alloys</div>
+          <div className="display font-black text-3xl uppercase tracking-wider mb-2">Visit Malwas Alloys</div>
           <div className="flex items-start gap-2 text-zinc-700 text-sm mb-1">
-            <MapPin size={15} className="mt-0.5 shrink-0"/><span>Ranchi Road, Near Hyundai Showroom — same complex as Malwa CCA</span>
+            <MapPin size={15} className="mt-0.5 shrink-0"/><span>Ranchi Road, Near Hyundai Showroom — same complex as Malwas CCA</span>
           </div>
           <div className="flex items-center gap-2 text-zinc-700 text-sm">
             <Phone size={14} className="shrink-0"/><a href="tel:+919400000000">+91 94xxx xxxxx</a>
