@@ -97,12 +97,12 @@ export default function Footer(){
               <MapPin size={15} className="text-white mt-0.5 shrink-0"/>
               <div>
                 <p className="text-zinc-300 text-sm leading-relaxed">Ranchi Road, Near Hyundai Showroom</p>
-                <p className="text-zinc-500 text-xs">Jharkhand – 835xxx</p>
+                <p className="text-zinc-500 text-xs">Jharkhand – 822101</p>
               </div>
             </li>
             <li className="flex gap-3 items-center">
               <Phone size={15} className="text-white shrink-0"/>
-              <a href="tel:+919400000000" className="text-zinc-400 hover:text-white text-sm transition-colors">+91 94xxx xxxxx</a>
+              <a href="tel:+919798646302" className="text-zinc-400 hover:text-white text-sm transition-colors">+91 9798646302</a>
             </li>
             <li className="flex gap-3 items-center">
               <Mail size={15} className="text-white shrink-0"/>

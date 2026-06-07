@@ -41,7 +41,7 @@ export default function Navbar(){
       {/* Ticker tape */}
       <div className="bg-white text-black text-[10px] mono tracking-[.18em] overflow-hidden py-1.5">
         <div className="ticker-inner whitespace-nowrap select-none">
-          {Array(4).fill('  ◆  FREE FITTING ON ALL SEAT COVERS  ◆  VISIT: RANCHI ROAD, NEAR HYUNDAI SHOWROOM  ◆  Malwas ALLOYS — LATEST 4-WHEELER ALLOYS  ◆  CALL: +91 94xxx xxxxx  ◆  ALL CAR TYPES SERVICED  ').join('')}
+          {Array(4).fill('  ◆  FREE FITTING ON ALL SEAT COVERS  ◆  VISIT: RANCHI ROAD, NEAR HYUNDAI SHOWROOM  ◆  Malwas ALLOYS — LATEST 4-WHEELER ALLOYS  ◆  CALL: +91 9798646302  ◆  ALL CAR TYPES SERVICED  ').join('')}
         </div>
       </div>
 
@@ -153,7 +153,7 @@ export default function Navbar(){
                 <MapPin size={13}/><span className="mono text-[10px]">Ranchi Road, Near Hyundai Showroom</span>
               </div>
               <div className="flex items-center gap-2 text-zinc-600">
-                <Phone size={13}/><a href="tel:+919400000000" className="mono text-[10px]">+91 94xxx xxxxx</a>
+                <Phone size={13}/><a href="tel:+919400000000" className="mono text-[10px]">+91 9798646302</a>
               </div>
             </div>
           </div>

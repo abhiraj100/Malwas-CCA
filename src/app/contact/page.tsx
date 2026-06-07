@@ -39,7 +39,7 @@ export default function ContactPage(){
             </p>
             {[
               {icon:MapPin,t:'Showroom Address',lines:['Ranchi Road, Near Hyundai Showroom','Jharkhand – 835xxx','(Malwas Alloys — same complex)']},
-              {icon:Phone, t:'Call / WhatsApp',  lines:['+91 94xxx xxxxx','+91 90xxx xxxxx']},
+              {icon:Phone, t:'Call / WhatsApp',  lines:['+91 9798646302','+91 90xxx xxxxx']},
               {icon:Mail,  t:'Email',            lines:['info@Malwascca.in','support@Malwascca.in']},
               {icon:Clock, t:'Hours',            lines:['Mon–Sat: 9:00 AM – 8:00 PM','Sunday: 10:00 AM – 5:00 PM']},
             ].map(({icon:Icon,t,lines})=>(
@@ -80,7 +80,7 @@ export default function ContactPage(){
                   ))}
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {[{n:'phone',l:'Phone',p:'+91 94xxx xxxxx'},{n:'subject',l:'Subject',p:'Seat Cover Enquiry'}].map(({n,l,p})=>(
+                  {[{n:'phone',l:'Phone',p:'+91 9798646302'},{n:'subject',l:'Subject',p:'Seat Cover Enquiry'}].map(({n,l,p})=>(
                     <div key={n}>
                       <label className="mono text-zinc-600 text-[10px] uppercase tracking-widest mb-1.5 block">{l}</label>
                       <input type="text" value={(f as any)[n]} onChange={e=>setF({...f,[n]:e.target.value})} placeholder={p} className="input text-sm"/>

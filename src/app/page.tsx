@@ -35,7 +35,7 @@ const features=[
   {icon:Truck,    title:'Free Fitting',      desc:'On all seat covers & floor mats'},
   {icon:Shield,   title:'Genuine Products',  desc:'100% authentic accessories'},
   {icon:Wrench,   title:'Expert Fitment',    desc:'Experienced installation team'},
-  {icon:Headphones,title:'24/7 Support',     desc:'+91 94xxx xxxxx · Always here'},
+  {icon:Headphones,title:'24/7 Support',     desc:'+91 9798646302 · Always here'},
 ];
 
 const stats=[

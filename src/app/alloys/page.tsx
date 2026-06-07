@@ -122,7 +122,7 @@ export default function AlloysPage(){
             <MapPin size={15} className="mt-0.5 shrink-0"/><span>Ranchi Road, Near Hyundai Showroom — same complex as Malwas CCA</span>
           </div>
           <div className="flex items-center gap-2 text-zinc-700 text-sm">
-            <Phone size={14} className="shrink-0"/><a href="tel:+919400000000">+91 94xxx xxxxx</a>
+            <Phone size={14} className="shrink-0"/><a href="tel:+919400000000">+91 9798646302</a>
           </div>
         </div>
       </div>

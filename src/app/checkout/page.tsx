@@ -70,11 +70,11 @@ export default function CheckoutPage(){
                   {inp('firstName','First Name','Rahul')}
                   {inp('lastName','Last Name','Kumar')}
                   {inp('email','Email','rahul@email.com','email')}
-                  {inp('phone','Phone','+91 94xxx xxxxx','tel')}
+                  {inp('phone','Phone','+91 9798646302','tel')}
                   <div className="sm:col-span-2">{inp('address','Full Address','House No, Street, Area…')}</div>
                   {inp('city','City','Ranchi')}
                   {inp('state','State','Jharkhand')}
-                  {inp('pincode','PIN Code','835xxx')}
+                  {inp('pincode','PIN Code','822101')}
                 </div>
                 <button onClick={()=>setStep(1)} className="btn-white mt-6 gap-2">Continue to Payment →</button>
               </div>
